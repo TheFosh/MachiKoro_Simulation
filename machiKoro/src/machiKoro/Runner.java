@@ -9,7 +9,7 @@ public class Runner {
 	public static void main(String[] args) throws FileNotFoundException {
 		Game theGame = new Game(2);
 	
-		Scanner scan = new Scanner(new File("CardInfo.txt"));
+		Scanner scan = new Scanner(new File("C:\\Users\\SwansonJacob\\git\\MachiKoro_Simulation\\machiKoro\\src\\cards\\CardInfo.txt"));
 		
 	}
 	
