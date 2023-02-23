@@ -1,10 +1,16 @@
 package machiKoro;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class Runner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		Game theGame = new Game(2);
 	
+		Scanner scan = new Scanner(new File("CardInfo.txt"));
+		
 	}
 	
 	
