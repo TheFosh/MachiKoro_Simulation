@@ -11,6 +11,8 @@ public class Runner {
 	
 		Scanner scan = new Scanner(new File("C:\\Users\\SwansonJacob\\git\\MachiKoro_Simulation\\machiKoro\\src\\cards\\CardInfo.txt"));
 		
+		
+		
 	}
 	
 	
