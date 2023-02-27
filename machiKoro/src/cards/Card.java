@@ -1,6 +1,6 @@
 package cards;
 
-public abstract class Card {
+public class Card {
 
 	private int cost;
 	private String name;
@@ -16,10 +16,6 @@ public abstract class Card {
 		this.description = d;
 		this.activationRolls = nums;
 		this.cardSymbol = s;
-	}
-	
-	public void whenRolled() {
-		
 	}
 	
 }
