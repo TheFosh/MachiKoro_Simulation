@@ -1,15 +1,104 @@
-1-WheatField-blue-Get 1 coin from the bank, on anyone's turn.-(1)-Wheat
-1-Ranch-blue-Get 1 coin from the bank, on anyone's turn.-(2)-Cow
-1-Bakery-green-Get 1 coin from the bank, your turn only.-(2,3)-Store
-2-Cafe-red-Get 1 coin from the player who rolled the dice.-(3)-Cup
-2-Convenience Store-green-Get 3 coins from the bank, on your turn only.-(4)-Store
-3-Forest-blue-Get 1 coin from the bank, on anyone's turn.-(5)-Gear
-6-Stadium-purple-Get 2 coins form all players, on your turn only.-(6)-Tower
-7-TV Station-purple-If this is your turn, take 5 coins from any one player.-(6)-Tower
-8-Business Center-purple-If this is your turn, trade one non Tower establishment with another player.-(6)-Tower
-5-Cheese Factory-green-If this is your turn, get 3 coins from the bank for each Cow establishment that you own.-(7)-Factory
-3-Furniture Factory-green-If this is your turn, get 3 coins from the bank for each Gear establishment that you own.-(8)-Factory
-6-Mine-Blue-Get 5 coins from the bank, on anyone's turn.-(9)-Gear
-3-Family Restaurant-red-Get 2 coins from the player who rolled the dice.-(9,10)-Cup
-3-Apple Orchard-blue-Get 3 coins from the bank, on anyone's turn.-(10)-Wheat
-2-Farmers Market-green-If this is your turn, get 2 coins from the bank for each Wheat establishment that you own.-(11,12)-Fruit
+1
+WheatField
+blue
+Get 1 coin from the bank, on anyone's turn.
+(1)
+Wheat
+
+1
+Ranch
+blue
+Get 1 coin from the bank, on anyone's turn.
+(2)
+Cow
+
+1
+Bakery
+green
+Get 1 coin from the bank, your turn only.
+(2,3)
+Store
+
+2
+Cafe
+red
+Get 1 coin from the player who rolled the dice.
+(3)
+Cup
+
+2
+Convenience Store
+green
+Get 3 coins from the bank, on your turn only.
+(4)
+Store
+
+3
+Forest
+blue
+Get 1 coin from the bank, on anyone's turn.
+(5)
+Gear
+
+6
+Stadium
+purple
+Get 2 coins form all players, on your turn only.
+(6)
+Tower
+
+7
+TV Station
+purple
+If this is your turn, take 5 coins from any one player.
+(6)
+Tower
+
+8
+Business Center
+purple
+If this is your turn, trade one non Tower establishment with another player.
+(6)
+Tower
+
+5
+Cheese Factory
+green
+If this is your turn, get 3 coins from the bank for each Cow establishment that you own.
+(7)
+Factory
+
+3
+Furniture Factory
+green
+If this is your turn, get 3 coins from the bank for each Gear establishment that you own.
+(8)
+Factory
+
+6
+Mine
+blue
+Get 5 coins from the bank, on anyone's turn.
+(9)
+Gear
+
+3
+Family Restaurant
+red
+Get 2 coins from the player who rolled the dice.
+(9,10)
+Cup
+
+3
+Apple Orchard
+blue
+Get 3 coins from the bank, on anyone's turn.
+(10)
+Wheat
+
+2
+Farmers Market
+green
+If this is your turn, get 2 coins from the bank for each Wheat establishment that you own.
+(11,12)
+Fruit
