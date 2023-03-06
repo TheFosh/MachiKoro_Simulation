@@ -1,6 +1,6 @@
 package cards;
 
-public enum color {
+public enum Color {
 	blue,
 	green,
 	red,
