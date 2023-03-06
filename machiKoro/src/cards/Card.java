@@ -1,15 +1,17 @@
 package cards;
 
+import java.util.ArrayList;
+
 public class Card {
 
 	private int cost;
 	private String name;
-	private color cardColor;
+	private Color cardColor;
 	private String description;
-	private int[] activationRolls;
+	private ArrayList<Integer> activationRolls;
 	private Symbol cardSymbol;
 	
-	public Card(int cos, String n, color col, String d, int[] nums, Symbol s) {
+	public Card(int cos, String n, Color col, String d, ArrayList<Integer> nums, Symbol s) {
 		this.cost = cos;
 		this.name = n;
 		this.cardColor = col;
@@ -17,5 +19,4 @@ public class Card {
 		this.activationRolls = nums;
 		this.cardSymbol = s;
 	}
-	
 }
