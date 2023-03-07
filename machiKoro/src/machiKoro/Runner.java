@@ -18,6 +18,7 @@ public class Runner {
 		
 		ArrayList<Card> deck = makeDeck(scan);
 		
+		
 	}
 	//Makes all the cards in the game based off the info on the info file
 	public static ArrayList<Card> makeDeck(Scanner scan){
