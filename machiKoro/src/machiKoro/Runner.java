@@ -18,7 +18,6 @@ public class Runner {
 		
 		ArrayList<Card> deck = makeDeck(scan);
 		
-		
 	}
 	//Makes all the cards in the game based off the info on the info file
 	public static ArrayList<Card> makeDeck(Scanner scan){
@@ -49,13 +48,14 @@ public class Runner {
 	private static ArrayList<Integer> getRolls(String range) {
 		ArrayList<Integer> nums = new ArrayList<>();
 		
-		do {
+		while(range.indexOf(',') != -1) {
+			int num = Integer.parseInt(range.substring(0, range.indexOf(',')));
+			range = range.substring(range.indexOf(',') +1);
 			
-			int num = Integer.parseInt(range.substring(0, 1));
-			if(range.indexOf(',') != -1)
-				range = range.substring(range.indexOf(',') +1);
-			
-		} while(range.indexOf(',') != -1);
+			nums.add(num);
+		}
+		
+		nums.add(Integer.parseInt(range.substring(0, range.length())));
 		
 		return nums;
 	}

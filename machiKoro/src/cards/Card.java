@@ -19,4 +19,18 @@ public class Card {
 		this.activationRolls = nums;
 		this.cardSymbol = s;
 	}
+	
+	@Override
+	public String toString() {
+		String message = "Name: " + this.name + "\n";
+		message += "Cost: " + this.cost + "\n";
+		message += "Color: " + this.cardColor + "\n";
+		message += "Desc: " + this.description + "\n";
+		for(int i = 0; i < this.activationRolls.size(); i++) {
+			message += "Roll number " + i + ": " + this.activationRolls.get(i) + "\n";
+		}
+		message += "Symbol: " + this.cardSymbol + "\n";
+		
+		return message;
+	}
 }
